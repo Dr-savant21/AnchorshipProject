@@ -146,3 +146,27 @@ input[type='submit']{
     border-radius: 2px;
     cursor: pointer;
 }
+
+@media (max-width: 420px){
+    header img{
+        width: 120px;
+        height: 115px;
+    }   
+    header h1.fs-2{
+        font-size: 1.25rem !important;
+    }   
+    header h3.fs-4{
+        font-size: 1.2rem !important;
+    }
+    header .brand {
+        margin-left: 2.5rem !important;
+        margin-top: 1rem !important;
+    }
+}
+
+@media (max-width: 340px){
+    header .brand {
+        margin-left: 1rem !important;
+        margin-top: 0.5rem !important;
+    }
+}
