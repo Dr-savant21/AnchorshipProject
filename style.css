@@ -1,0 +1,148 @@
+.container-fluid{
+    background-color: #F3C768;
+}
+
+header img{
+    width: 150px;
+}
+
+header h1{
+    font-family: AlgerianD;
+}
+
+header h3{
+    font-family:  'Lato', sans-serif;
+    color: rgb(243, 199, 104);
+}
+
+.ver-rule{
+    border-right: 0.1px solid black;
+}
+
+.container-fluid nav {
+    background-color: #FCCD97;
+}
+
+nav ul li .nav-link:hover{
+    color: #23527c !important;
+}
+
+.carousel-item img{
+    height: 400px;
+}
+
+aside{
+    background-color: #FCCD97;
+}
+aside ul li {
+    background: linear-gradient(178deg, rgba(252,205,151,1)0%, rgba(255, 255,255,1)100%);
+}
+aside ul li button{
+    width: 100%;
+    border-radius: 0% !important;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
+aside ul li .card {
+    border: none !important;
+    border-radius: 0% !important;
+}
+
+.sidebar .img img {
+    width: 100%;
+    height: 270px;
+    border: 5px solid #F3C768;
+    border-radius: 10px;
+}
+
+.carousel-caption h5 {
+    font-family: Lato, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 26.4px;
+}
+
+.vessel-img img{
+    width: 100%;
+    height: 211px;
+    border: 3px solid #F3C768;
+    border-radius: 10px;
+}
+.vessel-text h5,
+.vessel-text p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.vessel-text h4 {
+    margin: 10px 0 20px;
+    font-size: 18px;
+}
+
+.desc-txt h5{
+    margin-top: 1.3rem;
+}
+
+.desc-txt p{
+    font-family: Lato, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 18.7px;
+    color: rgb(51, 51, 51);
+}
+
+.chat-icon {
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background-color: #03A84E;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.chat-icon img{
+    width: 55px;
+    height: 60px;
+}
+
+form{
+    margin-left: 1rem;
+}
+
+label{
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: rgb(51, 51, 51);
+    display: block;
+}
+
+input{
+    border-radius: 2px;
+    padding: 10px;
+    border: #e0dfdf 1px solid;
+    box-sizing: border-box;
+    margin-top: 2px;
+}
+
+textarea{
+    width: 216px;
+    border-radius: 2px;
+    padding: 10px;
+    border: 1px solid rgb(224, 223, 223);
+    box-sizing: border-box;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    height: 146px;
+}
+
+input[type='submit']{
+    padding: 10px 60px;
+    background: #9e9a91;
+    border: #8c8880 1px solid;
+    color: #ffffff;
+    font-size: 0.9em;
+    border-radius: 2px;
+    cursor: pointer;
+}
